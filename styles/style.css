@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: #C6D6F3;
+}
+
+.search-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.movie {
+    display: flex;
+    justify-content: center;
+}
+
+.movie-info {
+    background-color: #8F97BC;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.errorDiv {
+    background-color: #8F97BC;
+    color: #E2475E;
+    font-size: 24px;
+}
